@@ -2,6 +2,7 @@
 import { Card, CardHeader, CardContent, CardFooter  } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import ReactMarkdown from 'react-markdown'
 import Image from "next/image";
 import { useState } from "react";
 
@@ -68,7 +69,7 @@ export default function Home() {
           {messages.map((message, index) => (
             <div key={index} className={`flex ${message.role === "assistant" ? "justify-start" : "justify-end"}`}>
               <div className={`p-3 rounded-lg ${message.role === "assistant" ? "bg-gray-100" : "bg-purple-500 text-white"}`}>
-                {message.content}
+                <ReactMarkdown>{message.content}</ReactMarkdown>
               </div>
             </div>
           ))}
