@@ -1,0 +1,125 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Jane Smith",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Dr. Smith is an amazing professor. Her lectures are clear and she is always willing to help outside of class."
+      },
+      {
+        "professor": "Dr. John Doe",
+        "subject": "Mathematics",
+        "stars": 4,
+        "review": "Dr. Doe explains concepts well, but his exams are very challenging."
+      },
+      {
+        "professor": "Dr. Emily Johnson",
+        "subject": "Biology",
+        "stars": 3,
+        "review": "The course was informative, but Dr. Johnson's lectures were sometimes difficult to follow."
+      },
+      {
+        "professor": "Dr. Michael Brown",
+        "subject": "Chemistry",
+        "stars": 4,
+        "review": "Dr. Brown is a good professor, but he moves through the material very quickly."
+      },
+      {
+        "professor": "Dr. Sarah Davis",
+        "subject": "Physics",
+        "stars": 2,
+        "review": "Dr. Davis is knowledgeable, but she doesn't seem very approachable."
+      },
+      {
+        "professor": "Dr. David Wilson",
+        "subject": "Economics",
+        "stars": 5,
+        "review": "Dr. Wilson's lectures are engaging and he makes complex topics easy to understand."
+      },
+      {
+        "professor": "Dr. Jennifer Lee",
+        "subject": "English",
+        "stars": 3,
+        "review": "Dr. Lee's class was interesting, but her grading was very strict."
+      },
+      {
+        "professor": "Dr. Robert Taylor",
+        "subject": "History",
+        "stars": 4,
+        "review": "Dr. Taylor is passionate about history and it shows in his teaching."
+      },
+      {
+        "professor": "Dr. Jessica Anderson",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Dr. Anderson is an excellent professor. Her lectures are engaging and she cares about her students."
+      },
+      {
+        "professor": "Dr. Richard Martinez",
+        "subject": "Philosophy",
+        "stars": 3,
+        "review": "Dr. Martinez's lectures were thought-provoking, but sometimes hard to follow."
+      },
+      {
+        "professor": "Dr. Elizabeth Thomas",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Dr. Thomas is a great professor. She encourages discussion and critical thinking."
+      },
+      {
+        "professor": "Dr. Christopher Moore",
+        "subject": "Political Science",
+        "stars": 2,
+        "review": "Dr. Moore's lectures are dry and he doesn't engage with the students."
+      },
+      {
+        "professor": "Dr. Patricia Harris",
+        "subject": "Art History",
+        "stars": 5,
+        "review": "Dr. Harris is passionate about art and her enthusiasm is contagious."
+      },
+      {
+        "professor": "Dr. Mark White",
+        "subject": "Engineering",
+        "stars": 4,
+        "review": "Dr. White is a good professor, but his assignments are very challenging."
+      },
+      {
+        "professor": "Dr. Linda Clark",
+        "subject": "Business",
+        "stars": 3,
+        "review": "Dr. Clark's class was informative, but her teaching style was a bit boring."
+      },
+      {
+        "professor": "Dr. Steven Lewis",
+        "subject": "Anthropology",
+        "stars": 5,
+        "review": "Dr. Lewis is an engaging professor who really knows his subject."
+      },
+      {
+        "professor": "Dr. Karen Walker",
+        "subject": "Linguistics",
+        "stars": 4,
+        "review": "Dr. Walker is a knowledgeable professor, but her lectures can be a bit dense."
+      },
+      {
+        "professor": "Dr. Charles Hall",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Dr. Hall is an excellent professor who makes the material interesting and relevant."
+      },
+      {
+        "professor": "Dr. Barbara Young",
+        "subject": "Nursing",
+        "stars": 3,
+        "review": "Dr. Young is knowledgeable, but her exams are very difficult."
+      },
+      {
+        "professor": "Dr. James King",
+        "subject": "Music",
+        "stars": 4,
+        "review": "Dr. King is passionate about music and it shows in his teaching."
+      }
+    ]
+  }
+  
