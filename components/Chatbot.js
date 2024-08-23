@@ -3,13 +3,8 @@ import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import ReactMarkdown from 'react-markdown'
-import Image from "next/image";
 import { useState } from "react";
-import { useUser } from "@clerk/nextjs";
-import { getConversationsByUserId } from "@/lib/getConversations";
-import { getMessagesByConversationId } from "@/lib/getMessages";
 import { createMessage } from "@/lib/createMessage";
-import { createConversation } from "@/lib/createConversation";
 
 
 export default function Chatbot({ name, conversationId, prevMessages }) {
@@ -24,7 +19,7 @@ export default function Chatbot({ name, conversationId, prevMessages }) {
     const [messages, setMessages] = useState([
         {
             role: "assistant",
-            content: `Hi${` ${name}`}! I'm the Rate My Professor support assistant. How can I help you today?`
+            content: `Hi${name ? ` ${name}` : ''}! I'm the Rate My Professor support assistant. How can I help you today?`
         },
         ...prevMessagesFormatted
     ])

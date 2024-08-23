@@ -2,7 +2,6 @@
 import {auth, currentUser} from '@clerk/nextjs/server'
 import { getConversationsByUserId } from "@/lib/getConversations";
 import { getMessagesByConversationId } from "@/lib/getMessages";
-import { createMessage } from "@/lib/createMessage";
 import { createConversation } from "@/lib/createConversation";
 import Chatbot from "@/components/Chatbot";
 
@@ -12,23 +11,23 @@ export default async function Home() {
   // console.log('user', isSignedIn, user)
 
   const {userId} = auth()
-  console.log('userId', userId)
-  // TODO if signed in, get conversationsByUser or create new conversation
+  // console.log('userId', userId)
+  // if signed in, get conversationsByUser or create new conversation
   const conversations = userId ? await getConversationsByUserId(userId) : []
-  console.log('conversations', conversations)
+  // console.log('conversations', conversations)
 
   const conversationId = conversations.length === 0 && userId? await createConversation(userId) : conversations.length > 0 ? conversations[0]?.id : null
   console.log('conversationId', conversationId)
 
-  // TODO if signed in, get messagesByConversationId
+  // if signed in, get messagesByConversationId
   const messagesJSON = userId && conversationId ? await getMessagesByConversationId(conversationId) : []
-  console.log('messagesJSON', messagesJSON)
+  // console.log('messagesJSON', messagesJSON)
   
-  // TODO if conversationId then set prev messages
+  // if conversationId then set prev messages
   const prevMessages = JSON.parse(JSON.stringify(messagesJSON))
   
   const user = await currentUser()
-  console.log('user', user)
+  // console.log('user', user)
   
 
   return (
