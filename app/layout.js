@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <header className="bg-transparent shadow-lg">
             <nav className="flex items-center justify-between px-6 py-4">
               <Link href="/" passHref>
-                <p className="text-2xl font-bold text-gray-900">AI Flashcards</p>
+                <p className="text-2xl font-bold text-gray-900">Rate My Professor AI Assistant</p>
               </Link>
               <div className="flex items-center space-x-4">
                 <SignedOut>
